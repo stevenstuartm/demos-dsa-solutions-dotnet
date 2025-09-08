@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace demos.dsa.solutions.dotnet.Examples
+namespace demos.dsa.solutions.dotnet.Examples.Examples
 {
 
 //    Given an integer num, return the number of steps to reduce it to zero.

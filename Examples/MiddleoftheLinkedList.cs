@@ -1,6 +1,6 @@
 ﻿using demos.dsa.solutions.dotnet.Common;
 
-namespace demos.dsa.solutions.dotnet.Examples
+namespace demos.dsa.solutions.dotnet.Examples.Examples
 {
 //    Given the head of a singly linked list, return the middle node of the linked list.
 //    If there are two middle nodes, return the second middle node.

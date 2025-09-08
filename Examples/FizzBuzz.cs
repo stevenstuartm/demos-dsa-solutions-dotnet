@@ -1,4 +1,4 @@
-﻿namespace demos.dsa.solutions.dotnet
+﻿namespace demos.dsa.solutions.dotnet.Examples
 {
     internal static partial class Solutions
     {

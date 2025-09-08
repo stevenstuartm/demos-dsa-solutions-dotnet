@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 
-namespace demos.dsa.solutions.dotnet.Problems
+namespace demos.dsa.solutions.dotnet.Examples.Problems
 {
     public class Node
     {

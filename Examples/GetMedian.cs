@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 
-namespace demos.dsa.solutions.dotnet
+namespace demos.dsa.solutions.dotnet.Examples
 {
     internal static partial class Solutions
     {

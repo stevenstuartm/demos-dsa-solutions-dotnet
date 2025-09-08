@@ -1,4 +1,4 @@
-﻿namespace demos.dsa.solutions.dotnet.Leetcode
+﻿namespace demos.dsa.solutions.dotnet.Examples.Leetcode
 {
     //You are climbing a staircase.It takes n steps to reach the top.
 
