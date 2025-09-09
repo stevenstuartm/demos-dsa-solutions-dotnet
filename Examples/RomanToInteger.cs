@@ -1,4 +1,4 @@
-﻿namespace demos.dsa.solutions.dotnet.Examples.Leetcode
+﻿namespace demos.dsa.solutions.dotnet.Examples
 {
 //Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 

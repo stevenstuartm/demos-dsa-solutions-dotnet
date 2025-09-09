@@ -1,21 +1,17 @@
 ﻿namespace demos.dsa.solutions.dotnet.Examples.Examples
 {
-
 // Given an integer array nums and an integer val, remove all occurrences of val in nums in-place.The order of the elements may be changed.Then return the number of elements in nums which are not equal to val.
-
 //Consider the number of elements in nums which are not equal to val be k, to get accepted, you need to do the following things:
-
 //Change the array nums such that the first k elements of nums contain the elements which are not equal to val.The remaining elements of nums are not important as well as the size of nums.
 //Return k.
 
 //Example 1:
-
 //Input: nums = [3, 2, 2, 3], val = 3
 //Output: 2, nums = [2, 2, _, _]
 //Explanation: Your function should return k = 2, with the first two elements of nums being 2.
 //It does not matter what you leave beyond the returned k (hence they are underscores).
-//Example 2:
 
+//Example 2:
 //Input: nums = [0, 1, 2, 2, 3, 0, 4, 2], val = 2
 //Output: 5, nums = [0, 1, 4, 0, 3, _, _, _]
 //Explanation: Your function should return k = 5, with the first five elements of nums containing 0, 0, 1, 3, and 4.
@@ -24,17 +20,25 @@
 
     internal static partial class Solutions
     {
+        //[3, 2, 2, 3], val = 3 starts at (readIndex = 0, writeIndex = 0)
+        //[3, 2, 2, 3], val = 3 starts at (readIndex = 1, writeIndex = 0)
+        //[2, 2, 2, 3], val = 3 starts at (readIndex = 2, writeIndex = 1)
+        //[2, 2, 2, 3], val = 3 starts at (readIndex = 3, writeIndex = 2)
+
         public static int RemoveElement(int[] nums, int val)
         {
-            int writeIndex = 0;
-            for (int readIndex = 0; readIndex < nums.Length; readIndex++)
+            var writeIndex = 0;
+
+            for(var readIndex = 0; readIndex < nums.Length; readIndex++)
             {
                 if (nums[readIndex] != val)
                 {
                     nums[writeIndex] = nums[readIndex];
+
                     writeIndex++;
                 }
             }
+
             return writeIndex;
         }
     }
